@@ -23,10 +23,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="無法連線至網際網路
 
-您的電腦未連上網際網路，因此 Google Chrome 無法顯示網頁"
         android:textColor="@android:color/white"
-        android:background=""
+        android:background="@android:color/black"
         android:textSize="32sp"/>
 </LinearLayout>
