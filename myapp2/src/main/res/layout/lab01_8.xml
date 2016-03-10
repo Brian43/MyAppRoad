@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        android:layout_gravity="center"
+        android:src="@drawable/p7"
+        android:id="@id/imageView"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Amazzing"
+        android:textColor="@android:color/white"
+        android:background="#009688"
+        android:textSize="32sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="無法連線至網際網路
+
+您的電腦未連上網際網路，因此 Google Chrome 無法顯示網頁"
+        android:textColor="@android:color/white"
+        android:background=""
+        android:textSize="32sp"/>
+</LinearLayout>
